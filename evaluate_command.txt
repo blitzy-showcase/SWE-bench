@@ -1,0 +1,18 @@
+# Command Template:
+
+python3 -m swebench.harness.run_evaluation \
+  --dataset_name princeton-nlp/SWE-bench_Verified \
+  --predictions_path ../JSONL_Predictions/INSERT_PREDICTION_FILE_HERE \
+  --modal true \
+  --run_id INSERT_RUN_ID_HERE
+
+
+# Test Run Command:
+
+python3 -m swebench.harness.run_evaluation \
+  --dataset_name princeton-nlp/SWE-bench_Verified \
+  --predictions_path ../JSONL_Predictions/swe_bench_predictions.jsonl \
+  --modal true \
+  --run_id TestRun_3_for_3
+
+# results should output in Blitzy 3.0.TestRun_3_for_3.json (or Blitzy 3.0.<your_run_id>.json)
