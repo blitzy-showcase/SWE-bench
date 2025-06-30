@@ -194,14 +194,23 @@ def clean_requirements(requirements_text: str) -> str:
                 requirements_text,
                 flags=re.MULTILINE,
             )
+        # else statement modified for pylint error:
         else:
-            # this replacement removes version specifier of the original package
-            requirements_text = re.sub(
-                rf"^{re.escape(pkg_to_replace)}(?=[<>=!~\s]|$)",
-                replacement,
-                requirements_text,
-                flags=re.MULTILINE,
-            )
+            # Replace with valid version for types-setuptools
+            if pkg_to_replace == "types-pkg_resources" and replacement == "types-setuptools":
+                requirements_text = re.sub(
+                    rf"^{re.escape(pkg_to_replace)}(?:[<>=!~][^\s]*)?",
+                    "types-setuptools>=57.0.0",
+                    requirements_text,
+                    flags=re.MULTILINE
+                )
+            else:
+                requirements_text = re.sub(
+                    rf"^{re.escape(pkg_to_replace)}(?=[<>=!~\s]|$)",
+                    replacement,
+                    requirements_text,
+                    flags=re.MULTILINE
+                )
     return requirements_text
 
 
