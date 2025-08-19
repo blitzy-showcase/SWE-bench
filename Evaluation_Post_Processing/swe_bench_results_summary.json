@@ -1,0 +1,1082 @@
+{
+  "astropy__astropy-13033": {
+    "FAIL_TO_PASS": "0/1",
+    "PASS_TO_PASS": "19/20",
+    "resolved_status": "\u274c unresolved"
+  },
+  "astropy__astropy-13236": {
+    "FAIL_TO_PASS": "0/2",
+    "PASS_TO_PASS": "644/644",
+    "resolved_status": "\u274c unresolved"
+  },
+  "astropy__astropy-13977": {
+    "FAIL_TO_PASS": "20/20",
+    "PASS_TO_PASS": "322/322",
+    "resolved_status": "\u2705 resolved"
+  },
+  "astropy__astropy-14182": {
+    "FAIL_TO_PASS": "0/1",
+    "PASS_TO_PASS": "9/9",
+    "resolved_status": "\u274c unresolved"
+  },
+  "astropy__astropy-14365": {
+    "FAIL_TO_PASS": "1/1",
+    "PASS_TO_PASS": "8/8",
+    "resolved_status": "\u2705 resolved"
+  },
+  "astropy__astropy-14598": {
+    "FAIL_TO_PASS": "0/1",
+    "PASS_TO_PASS": "0/175",
+    "resolved_status": "\u274c unresolved"
+  },
+  "astropy__astropy-8707": {
+    "FAIL_TO_PASS": "0/1",
+    "PASS_TO_PASS": "4/11",
+    "resolved_status": "\u274c unresolved"
+  },
+  "astropy__astropy-8872": {
+    "FAIL_TO_PASS": "0/1",
+    "PASS_TO_PASS": "0/80",
+    "resolved_status": "\u274c unresolved"
+  },
+  "django__django-10554": {
+    "FAIL_TO_PASS": "0/2",
+    "PASS_TO_PASS": "23/23",
+    "resolved_status": "\u274c unresolved"
+  },
+  "django__django-10999": {
+    "FAIL_TO_PASS": "0/2",
+    "PASS_TO_PASS": "10/10",
+    "resolved_status": "\u274c unresolved"
+  },
+  "django__django-11087": {
+    "FAIL_TO_PASS": "0/1",
+    "PASS_TO_PASS": "41/41",
+    "resolved_status": "\u274c unresolved"
+  },
+  "django__django-11138": {
+    "FAIL_TO_PASS": "0/1",
+    "PASS_TO_PASS": "73/73",
+    "resolved_status": "\u274c unresolved"
+  },
+  "django__django-11149": {
+    "FAIL_TO_PASS": "2/2",
+    "PASS_TO_PASS": "46/46",
+    "resolved_status": "\u2705 resolved"
+  },
+  "django__django-11265": {
+    "FAIL_TO_PASS": "1/1",
+    "PASS_TO_PASS": "30/30",
+    "resolved_status": "\u2705 resolved"
+  },
+  "django__django-11400": {
+    "FAIL_TO_PASS": "4/6",
+    "PASS_TO_PASS": "58/58",
+    "resolved_status": "\u274c unresolved"
+  },
+  "django__django-11433": {
+    "FAIL_TO_PASS": "0/1",
+    "PASS_TO_PASS": "141/142",
+    "resolved_status": "\u274c unresolved"
+  },
+  "django__django-11477": {
+    "FAIL_TO_PASS": "1/3",
+    "PASS_TO_PASS": "151/151",
+    "resolved_status": "\u274c unresolved"
+  },
+  "django__django-11734": {
+    "FAIL_TO_PASS": "0/1",
+    "PASS_TO_PASS": "275/275",
+    "resolved_status": "\u274c unresolved"
+  },
+  "django__django-11820": {
+    "FAIL_TO_PASS": "1/2",
+    "PASS_TO_PASS": "61/61",
+    "resolved_status": "\u274c unresolved"
+  },
+  "django__django-11848": {
+    "FAIL_TO_PASS": "0/2",
+    "PASS_TO_PASS": "43/43",
+    "resolved_status": "\u274c unresolved"
+  },
+  "django__django-11885": {
+    "FAIL_TO_PASS": "1/1",
+    "PASS_TO_PASS": "41/43",
+    "resolved_status": "\u274c unresolved"
+  },
+  "django__django-11964": {
+    "FAIL_TO_PASS": "0/2",
+    "PASS_TO_PASS": "15/15",
+    "resolved_status": "\u274c unresolved"
+  },
+  "django__django-12039": {
+    "FAIL_TO_PASS": "1/1",
+    "PASS_TO_PASS": "11/11",
+    "resolved_status": "\u2705 resolved"
+  },
+  "django__django-12125": {
+    "FAIL_TO_PASS": "2/2",
+    "PASS_TO_PASS": "45/45",
+    "resolved_status": "\u2705 resolved"
+  },
+  "django__django-12143": {
+    "FAIL_TO_PASS": "1/1",
+    "PASS_TO_PASS": "52/52",
+    "resolved_status": "\u2705 resolved"
+  },
+  "django__django-12262": {
+    "FAIL_TO_PASS": "4/4",
+    "PASS_TO_PASS": "18/18",
+    "resolved_status": "\u2705 resolved"
+  },
+  "django__django-12273": {
+    "FAIL_TO_PASS": "0/2",
+    "PASS_TO_PASS": "27/27",
+    "resolved_status": "\u274c unresolved"
+  },
+  "django__django-12308": {
+    "FAIL_TO_PASS": "0/2",
+    "PASS_TO_PASS": "20/20",
+    "resolved_status": "\u274c unresolved"
+  },
+  "django__django-12406": {
+    "FAIL_TO_PASS": "1/3",
+    "PASS_TO_PASS": "165/165",
+    "resolved_status": "\u274c unresolved"
+  },
+  "django__django-12708": {
+    "FAIL_TO_PASS": "1/1",
+    "PASS_TO_PASS": "101/101",
+    "resolved_status": "\u2705 resolved"
+  },
+  "django__django-12754": {
+    "FAIL_TO_PASS": "1/1",
+    "PASS_TO_PASS": "112/112",
+    "resolved_status": "\u2705 resolved"
+  },
+  "django__django-12965": {
+    "FAIL_TO_PASS": "1/1",
+    "PASS_TO_PASS": "52/52",
+    "resolved_status": "\u2705 resolved"
+  },
+  "django__django-13195": {
+    "FAIL_TO_PASS": "4/5",
+    "PASS_TO_PASS": "382/382",
+    "resolved_status": "\u274c unresolved"
+  },
+  "django__django-13212": {
+    "FAIL_TO_PASS": "3/5",
+    "PASS_TO_PASS": "2/2",
+    "resolved_status": "\u274c unresolved"
+  },
+  "django__django-13297": {
+    "FAIL_TO_PASS": "1/1",
+    "PASS_TO_PASS": "51/52",
+    "resolved_status": "\u274c unresolved"
+  },
+  "django__django-13344": {
+    "FAIL_TO_PASS": "2/2",
+    "PASS_TO_PASS": "356/356",
+    "resolved_status": "\u2705 resolved"
+  },
+  "django__django-13346": {
+    "FAIL_TO_PASS": "0/2",
+    "PASS_TO_PASS": "65/65",
+    "resolved_status": "\u274c unresolved"
+  },
+  "django__django-13363": {
+    "FAIL_TO_PASS": "1/1",
+    "PASS_TO_PASS": "76/76",
+    "resolved_status": "\u2705 resolved"
+  },
+  "django__django-13417": {
+    "FAIL_TO_PASS": "2/2",
+    "PASS_TO_PASS": "280/280",
+    "resolved_status": "\u2705 resolved"
+  },
+  "django__django-13449": {
+    "FAIL_TO_PASS": "1/1",
+    "PASS_TO_PASS": "46/46",
+    "resolved_status": "\u2705 resolved"
+  },
+  "django__django-13512": {
+    "FAIL_TO_PASS": "1/3",
+    "PASS_TO_PASS": "32/32",
+    "resolved_status": "\u274c unresolved"
+  },
+  "django__django-13513": {
+    "FAIL_TO_PASS": "0/1",
+    "PASS_TO_PASS": "83/83",
+    "resolved_status": "\u274c unresolved"
+  },
+  "django__django-13551": {
+    "FAIL_TO_PASS": "2/2",
+    "PASS_TO_PASS": "56/56",
+    "resolved_status": "\u2705 resolved"
+  },
+  "django__django-13568": {
+    "FAIL_TO_PASS": "1/1",
+    "PASS_TO_PASS": "13/13",
+    "resolved_status": "\u2705 resolved"
+  },
+  "django__django-13794": {
+    "FAIL_TO_PASS": "2/3",
+    "PASS_TO_PASS": "24/24",
+    "resolved_status": "\u274c unresolved"
+  },
+  "django__django-13837": {
+    "FAIL_TO_PASS": "1/1",
+    "PASS_TO_PASS": "57/57",
+    "resolved_status": "\u2705 resolved"
+  },
+  "django__django-14007": {
+    "FAIL_TO_PASS": "0/1",
+    "PASS_TO_PASS": "12/12",
+    "resolved_status": "\u274c unresolved"
+  },
+  "django__django-14011": {
+    "FAIL_TO_PASS": "0/17",
+    "PASS_TO_PASS": "2/2",
+    "resolved_status": "\u274c unresolved"
+  },
+  "django__django-14017": {
+    "FAIL_TO_PASS": "2/2",
+    "PASS_TO_PASS": "147/147",
+    "resolved_status": "\u2705 resolved"
+  },
+  "django__django-14034": {
+    "FAIL_TO_PASS": "0/1",
+    "PASS_TO_PASS": "12/12",
+    "resolved_status": "\u274c unresolved"
+  },
+  "django__django-14053": {
+    "FAIL_TO_PASS": "1/1",
+    "PASS_TO_PASS": "31/31",
+    "resolved_status": "\u2705 resolved"
+  },
+  "django__django-14140": {
+    "FAIL_TO_PASS": "2/4",
+    "PASS_TO_PASS": "199/199",
+    "resolved_status": "\u274c unresolved"
+  },
+  "django__django-14155": {
+    "FAIL_TO_PASS": "0/3",
+    "PASS_TO_PASS": "89/89",
+    "resolved_status": "\u274c unresolved"
+  },
+  "django__django-14170": {
+    "FAIL_TO_PASS": "2/2",
+    "PASS_TO_PASS": "67/76",
+    "resolved_status": "\u274c unresolved"
+  },
+  "django__django-14315": {
+    "FAIL_TO_PASS": "7/11",
+    "PASS_TO_PASS": "0/0",
+    "resolved_status": "\u274c unresolved"
+  },
+  "django__django-14376": {
+    "FAIL_TO_PASS": "3/3",
+    "PASS_TO_PASS": "6/6",
+    "resolved_status": "\u2705 resolved"
+  },
+  "django__django-14534": {
+    "FAIL_TO_PASS": "1/2",
+    "PASS_TO_PASS": "118/118",
+    "resolved_status": "\u274c unresolved"
+  },
+  "django__django-14725": {
+    "FAIL_TO_PASS": "3/3",
+    "PASS_TO_PASS": "64/64",
+    "resolved_status": "\u2705 resolved"
+  },
+  "django__django-14792": {
+    "FAIL_TO_PASS": "0/2",
+    "PASS_TO_PASS": "23/23",
+    "resolved_status": "\u274c unresolved"
+  },
+  "django__django-14855": {
+    "FAIL_TO_PASS": "1/1",
+    "PASS_TO_PASS": "325/325",
+    "resolved_status": "\u2705 resolved"
+  },
+  "django__django-15098": {
+    "FAIL_TO_PASS": "0/2",
+    "PASS_TO_PASS": "88/88",
+    "resolved_status": "\u274c unresolved"
+  },
+  "django__django-15127": {
+    "FAIL_TO_PASS": "1/1",
+    "PASS_TO_PASS": "1/1",
+    "resolved_status": "\u2705 resolved"
+  },
+  "django__django-15161": {
+    "FAIL_TO_PASS": "3/3",
+    "PASS_TO_PASS": "208/208",
+    "resolved_status": "\u2705 resolved"
+  },
+  "django__django-15252": {
+    "FAIL_TO_PASS": "0/2",
+    "PASS_TO_PASS": "34/34",
+    "resolved_status": "\u274c unresolved"
+  },
+  "django__django-15280": {
+    "FAIL_TO_PASS": "1/1",
+    "PASS_TO_PASS": "85/85",
+    "resolved_status": "\u2705 resolved"
+  },
+  "django__django-15563": {
+    "FAIL_TO_PASS": "1/2",
+    "PASS_TO_PASS": "29/29",
+    "resolved_status": "\u274c unresolved"
+  },
+  "django__django-15629": {
+    "FAIL_TO_PASS": "1/2",
+    "PASS_TO_PASS": "115/115",
+    "resolved_status": "\u274c unresolved"
+  },
+  "django__django-15695": {
+    "FAIL_TO_PASS": "1/1",
+    "PASS_TO_PASS": "123/123",
+    "resolved_status": "\u2705 resolved"
+  },
+  "django__django-15732": {
+    "FAIL_TO_PASS": "0/1",
+    "PASS_TO_PASS": "125/125",
+    "resolved_status": "\u274c unresolved"
+  },
+  "django__django-15916": {
+    "FAIL_TO_PASS": "1/2",
+    "PASS_TO_PASS": "149/149",
+    "resolved_status": "\u274c unresolved"
+  },
+  "django__django-15957": {
+    "FAIL_TO_PASS": "0/4",
+    "PASS_TO_PASS": "88/89",
+    "resolved_status": "\u274c unresolved"
+  },
+  "django__django-15973": {
+    "FAIL_TO_PASS": "0/1",
+    "PASS_TO_PASS": "157/157",
+    "resolved_status": "\u274c unresolved"
+  },
+  "django__django-16100": {
+    "FAIL_TO_PASS": "1/1",
+    "PASS_TO_PASS": "58/59",
+    "resolved_status": "\u274c unresolved"
+  },
+  "django__django-16136": {
+    "FAIL_TO_PASS": "2/2",
+    "PASS_TO_PASS": "7/7",
+    "resolved_status": "\u2705 resolved"
+  },
+  "django__django-16145": {
+    "FAIL_TO_PASS": "1/1",
+    "PASS_TO_PASS": "174/174",
+    "resolved_status": "\u2705 resolved"
+  },
+  "django__django-16255": {
+    "FAIL_TO_PASS": "1/1",
+    "PASS_TO_PASS": "36/36",
+    "resolved_status": "\u2705 resolved"
+  },
+  "django__django-16256": {
+    "FAIL_TO_PASS": "6/9",
+    "PASS_TO_PASS": "53/53",
+    "resolved_status": "\u274c unresolved"
+  },
+  "django__django-16263": {
+    "FAIL_TO_PASS": "0/3",
+    "PASS_TO_PASS": "100/100",
+    "resolved_status": "\u274c unresolved"
+  },
+  "django__django-16315": {
+    "FAIL_TO_PASS": "0/1",
+    "PASS_TO_PASS": "42/42",
+    "resolved_status": "\u274c unresolved"
+  },
+  "django__django-16333": {
+    "FAIL_TO_PASS": "1/1",
+    "PASS_TO_PASS": "87/87",
+    "resolved_status": "\u2705 resolved"
+  },
+  "django__django-16429": {
+    "FAIL_TO_PASS": "4/4",
+    "PASS_TO_PASS": "21/21",
+    "resolved_status": "\u2705 resolved"
+  },
+  "django__django-16454": {
+    "FAIL_TO_PASS": "1/1",
+    "PASS_TO_PASS": "44/45",
+    "resolved_status": "\u274c unresolved"
+  },
+  "django__django-16502": {
+    "FAIL_TO_PASS": "0/1",
+    "PASS_TO_PASS": "4/4",
+    "resolved_status": "\u274c unresolved"
+  },
+  "django__django-16560": {
+    "FAIL_TO_PASS": "6/8",
+    "PASS_TO_PASS": "65/66",
+    "resolved_status": "\u274c unresolved"
+  },
+  "django__django-16569": {
+    "FAIL_TO_PASS": "2/2",
+    "PASS_TO_PASS": "111/111",
+    "resolved_status": "\u2705 resolved"
+  },
+  "django__django-16595": {
+    "FAIL_TO_PASS": "1/1",
+    "PASS_TO_PASS": "37/37",
+    "resolved_status": "\u2705 resolved"
+  },
+  "django__django-16631": {
+    "FAIL_TO_PASS": "0/1",
+    "PASS_TO_PASS": "12/12",
+    "resolved_status": "\u274c unresolved"
+  },
+  "django__django-16642": {
+    "FAIL_TO_PASS": "0/1",
+    "PASS_TO_PASS": "21/21",
+    "resolved_status": "\u274c unresolved"
+  },
+  "django__django-16662": {
+    "FAIL_TO_PASS": "1/1",
+    "PASS_TO_PASS": "51/51",
+    "resolved_status": "\u2705 resolved"
+  },
+  "django__django-16667": {
+    "FAIL_TO_PASS": "1/2",
+    "PASS_TO_PASS": "24/24",
+    "resolved_status": "\u274c unresolved"
+  },
+  "django__django-16801": {
+    "FAIL_TO_PASS": "1/1",
+    "PASS_TO_PASS": "17/17",
+    "resolved_status": "\u2705 resolved"
+  },
+  "django__django-16819": {
+    "FAIL_TO_PASS": "1/1",
+    "PASS_TO_PASS": "38/38",
+    "resolved_status": "\u2705 resolved"
+  },
+  "django__django-16877": {
+    "FAIL_TO_PASS": "0/4",
+    "PASS_TO_PASS": "0/0",
+    "resolved_status": "\u274c unresolved"
+  },
+  "django__django-16899": {
+    "FAIL_TO_PASS": "2/2",
+    "PASS_TO_PASS": "54/54",
+    "resolved_status": "\u2705 resolved"
+  },
+  "django__django-16901": {
+    "FAIL_TO_PASS": "1/1",
+    "PASS_TO_PASS": "6/6",
+    "resolved_status": "\u2705 resolved"
+  },
+  "django__django-16938": {
+    "FAIL_TO_PASS": "23/23",
+    "PASS_TO_PASS": "65/65",
+    "resolved_status": "\u2705 resolved"
+  },
+  "django__django-16950": {
+    "FAIL_TO_PASS": "1/1",
+    "PASS_TO_PASS": "3/3",
+    "resolved_status": "\u2705 resolved"
+  },
+  "django__django-17087": {
+    "FAIL_TO_PASS": "1/1",
+    "PASS_TO_PASS": "53/53",
+    "resolved_status": "\u2705 resolved"
+  },
+  "matplotlib__matplotlib-20488": {
+    "FAIL_TO_PASS": "1/1",
+    "PASS_TO_PASS": "111/111",
+    "resolved_status": "\u2705 resolved"
+  },
+  "matplotlib__matplotlib-20676": {
+    "FAIL_TO_PASS": "0/2",
+    "PASS_TO_PASS": "32/32",
+    "resolved_status": "\u274c unresolved"
+  },
+  "matplotlib__matplotlib-20826": {
+    "FAIL_TO_PASS": "1/1",
+    "PASS_TO_PASS": "673/673",
+    "resolved_status": "\u2705 resolved"
+  },
+  "matplotlib__matplotlib-21568": {
+    "FAIL_TO_PASS": "2/4",
+    "PASS_TO_PASS": "73/73",
+    "resolved_status": "\u274c unresolved"
+  },
+  "matplotlib__matplotlib-22865": {
+    "FAIL_TO_PASS": "1/3",
+    "PASS_TO_PASS": "56/57",
+    "resolved_status": "\u274c unresolved"
+  },
+  "matplotlib__matplotlib-22871": {
+    "FAIL_TO_PASS": "1/1",
+    "PASS_TO_PASS": "88/88",
+    "resolved_status": "\u2705 resolved"
+  },
+  "matplotlib__matplotlib-23299": {
+    "FAIL_TO_PASS": "1/1",
+    "PASS_TO_PASS": "192/192",
+    "resolved_status": "\u2705 resolved"
+  },
+  "matplotlib__matplotlib-23412": {
+    "FAIL_TO_PASS": "1/1",
+    "PASS_TO_PASS": "46/46",
+    "resolved_status": "\u2705 resolved"
+  },
+  "matplotlib__matplotlib-23476": {
+    "FAIL_TO_PASS": "0/1",
+    "PASS_TO_PASS": "104/104",
+    "resolved_status": "\u274c unresolved"
+  },
+  "matplotlib__matplotlib-24026": {
+    "FAIL_TO_PASS": "2/2",
+    "PASS_TO_PASS": "764/764",
+    "resolved_status": "\u2705 resolved"
+  },
+  "matplotlib__matplotlib-24149": {
+    "FAIL_TO_PASS": "1/1",
+    "PASS_TO_PASS": "602/767",
+    "resolved_status": "\u274c unresolved"
+  },
+  "matplotlib__matplotlib-24177": {
+    "FAIL_TO_PASS": "1/1",
+    "PASS_TO_PASS": "768/768",
+    "resolved_status": "\u2705 resolved"
+  },
+  "matplotlib__matplotlib-24627": {
+    "FAIL_TO_PASS": "1/1",
+    "PASS_TO_PASS": "776/776",
+    "resolved_status": "\u2705 resolved"
+  },
+  "matplotlib__matplotlib-24870": {
+    "FAIL_TO_PASS": "0/1",
+    "PASS_TO_PASS": "65/65",
+    "resolved_status": "\u274c unresolved"
+  },
+  "matplotlib__matplotlib-25479": {
+    "FAIL_TO_PASS": "0/2",
+    "PASS_TO_PASS": "262/263",
+    "resolved_status": "\u274c unresolved"
+  },
+  "matplotlib__matplotlib-25960": {
+    "FAIL_TO_PASS": "0/1",
+    "PASS_TO_PASS": "137/137",
+    "resolved_status": "\u274c unresolved"
+  },
+  "matplotlib__matplotlib-26208": {
+    "FAIL_TO_PASS": "0/2",
+    "PASS_TO_PASS": "813/813",
+    "resolved_status": "\u274c unresolved"
+  },
+  "matplotlib__matplotlib-26466": {
+    "FAIL_TO_PASS": "0/1",
+    "PASS_TO_PASS": "100/100",
+    "resolved_status": "\u274c unresolved"
+  },
+  "mwaskom__seaborn-3187": {
+    "FAIL_TO_PASS": "0/2",
+    "PASS_TO_PASS": "248/248",
+    "resolved_status": "\u274c unresolved"
+  },
+  "psf__requests-6028": {
+    "FAIL_TO_PASS": "0/2",
+    "PASS_TO_PASS": "185/185",
+    "resolved_status": "\u274c unresolved"
+  },
+  "pydata__xarray-2905": {
+    "FAIL_TO_PASS": "1/1",
+    "PASS_TO_PASS": "363/364",
+    "resolved_status": "\u274c unresolved"
+  },
+  "pydata__xarray-3305": {
+    "FAIL_TO_PASS": "1/1",
+    "PASS_TO_PASS": "644/653",
+    "resolved_status": "\u274c unresolved"
+  },
+  "pydata__xarray-3993": {
+    "FAIL_TO_PASS": "0/2",
+    "PASS_TO_PASS": "2394/2398",
+    "resolved_status": "\u274c unresolved"
+  },
+  "pydata__xarray-4094": {
+    "FAIL_TO_PASS": "1/1",
+    "PASS_TO_PASS": "859/862",
+    "resolved_status": "\u274c unresolved"
+  },
+  "pydata__xarray-4687": {
+    "FAIL_TO_PASS": "0/1",
+    "PASS_TO_PASS": "1717/1717",
+    "resolved_status": "\u274c unresolved"
+  },
+  "pydata__xarray-6461": {
+    "FAIL_TO_PASS": "0/1",
+    "PASS_TO_PASS": "247/247",
+    "resolved_status": "\u274c unresolved"
+  },
+  "pydata__xarray-6744": {
+    "FAIL_TO_PASS": "3/3",
+    "PASS_TO_PASS": "1787/1815",
+    "resolved_status": "\u274c unresolved"
+  },
+  "pydata__xarray-6938": {
+    "FAIL_TO_PASS": "1/1",
+    "PASS_TO_PASS": "428/430",
+    "resolved_status": "\u274c unresolved"
+  },
+  "pydata__xarray-6992": {
+    "FAIL_TO_PASS": "0/12",
+    "PASS_TO_PASS": "937/945",
+    "resolved_status": "\u274c unresolved"
+  },
+  "pydata__xarray-7229": {
+    "FAIL_TO_PASS": "1/1",
+    "PASS_TO_PASS": "280/280",
+    "resolved_status": "\u2705 resolved"
+  },
+  "pydata__xarray-7233": {
+    "FAIL_TO_PASS": "1/1",
+    "PASS_TO_PASS": "189/189",
+    "resolved_status": "\u2705 resolved"
+  },
+  "pylint-dev__pylint-4551": {
+    "FAIL_TO_PASS": "0/10",
+    "PASS_TO_PASS": "0/0",
+    "resolved_status": "\u274c unresolved"
+  },
+  "pylint-dev__pylint-4604": {
+    "FAIL_TO_PASS": "0/21",
+    "PASS_TO_PASS": "0/0",
+    "resolved_status": "\u274c unresolved"
+  },
+  "pylint-dev__pylint-4661": {
+    "FAIL_TO_PASS": "0/1",
+    "PASS_TO_PASS": "0/0",
+    "resolved_status": "\u274c unresolved"
+  },
+  "pylint-dev__pylint-4970": {
+    "FAIL_TO_PASS": "0/1",
+    "PASS_TO_PASS": "17/17",
+    "resolved_status": "\u274c unresolved"
+  },
+  "pylint-dev__pylint-6386": {
+    "FAIL_TO_PASS": "0/1",
+    "PASS_TO_PASS": "7/7",
+    "resolved_status": "\u274c unresolved"
+  },
+  "pylint-dev__pylint-7080": {
+    "FAIL_TO_PASS": "0/1",
+    "PASS_TO_PASS": "120/120",
+    "resolved_status": "\u274c unresolved"
+  },
+  "pylint-dev__pylint-8898": {
+    "FAIL_TO_PASS": "1/1",
+    "PASS_TO_PASS": "18/18",
+    "resolved_status": "\u2705 resolved"
+  },
+  "pytest-dev__pytest-10356": {
+    "FAIL_TO_PASS": "0/1",
+    "PASS_TO_PASS": "79/79",
+    "resolved_status": "\u274c unresolved"
+  },
+  "pytest-dev__pytest-5840": {
+    "FAIL_TO_PASS": "0/2",
+    "PASS_TO_PASS": "51/51",
+    "resolved_status": "\u274c unresolved"
+  },
+  "pytest-dev__pytest-7324": {
+    "FAIL_TO_PASS": "1/3",
+    "PASS_TO_PASS": "58/58",
+    "resolved_status": "\u274c unresolved"
+  },
+  "scikit-learn__scikit-learn-12585": {
+    "FAIL_TO_PASS": "1/1",
+    "PASS_TO_PASS": "22/22",
+    "resolved_status": "\u2705 resolved"
+  },
+  "scikit-learn__scikit-learn-13124": {
+    "FAIL_TO_PASS": "1/1",
+    "PASS_TO_PASS": "58/60",
+    "resolved_status": "\u274c unresolved"
+  },
+  "scikit-learn__scikit-learn-14087": {
+    "FAIL_TO_PASS": "0/3",
+    "PASS_TO_PASS": "172/172",
+    "resolved_status": "\u274c unresolved"
+  },
+  "scikit-learn__scikit-learn-14629": {
+    "FAIL_TO_PASS": "0/1",
+    "PASS_TO_PASS": "26/26",
+    "resolved_status": "\u274c unresolved"
+  },
+  "scikit-learn__scikit-learn-14710": {
+    "FAIL_TO_PASS": "1/1",
+    "PASS_TO_PASS": "63/63",
+    "resolved_status": "\u2705 resolved"
+  },
+  "scikit-learn__scikit-learn-25747": {
+    "FAIL_TO_PASS": "0/1",
+    "PASS_TO_PASS": "14/14",
+    "resolved_status": "\u274c unresolved"
+  },
+  "scikit-learn__scikit-learn-26194": {
+    "FAIL_TO_PASS": "0/2",
+    "PASS_TO_PASS": "186/186",
+    "resolved_status": "\u274c unresolved"
+  },
+  "scikit-learn__scikit-learn-26323": {
+    "FAIL_TO_PASS": "1/1",
+    "PASS_TO_PASS": "188/188",
+    "resolved_status": "\u2705 resolved"
+  },
+  "sphinx-doc__sphinx-10323": {
+    "FAIL_TO_PASS": "1/1",
+    "PASS_TO_PASS": "38/40",
+    "resolved_status": "\u274c unresolved"
+  },
+  "sphinx-doc__sphinx-10435": {
+    "FAIL_TO_PASS": "0/1",
+    "PASS_TO_PASS": "74/74",
+    "resolved_status": "\u274c unresolved"
+  },
+  "sphinx-doc__sphinx-10614": {
+    "FAIL_TO_PASS": "0/1",
+    "PASS_TO_PASS": "5/5",
+    "resolved_status": "\u274c unresolved"
+  },
+  "sphinx-doc__sphinx-11510": {
+    "FAIL_TO_PASS": "1/2",
+    "PASS_TO_PASS": "7/7",
+    "resolved_status": "\u274c unresolved"
+  },
+  "sphinx-doc__sphinx-7462": {
+    "FAIL_TO_PASS": "0/2",
+    "PASS_TO_PASS": "0/49",
+    "resolved_status": "\u274c unresolved"
+  },
+  "sphinx-doc__sphinx-7590": {
+    "FAIL_TO_PASS": "0/1",
+    "PASS_TO_PASS": "0/24",
+    "resolved_status": "\u274c unresolved"
+  },
+  "sphinx-doc__sphinx-7748": {
+    "FAIL_TO_PASS": "0/2",
+    "PASS_TO_PASS": "0/12",
+    "resolved_status": "\u274c unresolved"
+  },
+  "sphinx-doc__sphinx-7757": {
+    "FAIL_TO_PASS": "0/1",
+    "PASS_TO_PASS": "0/33",
+    "resolved_status": "\u274c unresolved"
+  },
+  "sphinx-doc__sphinx-7889": {
+    "FAIL_TO_PASS": "0/1",
+    "PASS_TO_PASS": "0/5",
+    "resolved_status": "\u274c unresolved"
+  },
+  "sphinx-doc__sphinx-7910": {
+    "FAIL_TO_PASS": "0/1",
+    "PASS_TO_PASS": "0/16",
+    "resolved_status": "\u274c unresolved"
+  },
+  "sphinx-doc__sphinx-7985": {
+    "FAIL_TO_PASS": "0/2",
+    "PASS_TO_PASS": "0/3",
+    "resolved_status": "\u274c unresolved"
+  },
+  "sphinx-doc__sphinx-8035": {
+    "FAIL_TO_PASS": "0/1",
+    "PASS_TO_PASS": "0/2",
+    "resolved_status": "\u274c unresolved"
+  },
+  "sphinx-doc__sphinx-8056": {
+    "FAIL_TO_PASS": "0/1",
+    "PASS_TO_PASS": "0/40",
+    "resolved_status": "\u274c unresolved"
+  },
+  "sphinx-doc__sphinx-8120": {
+    "FAIL_TO_PASS": "0/1",
+    "PASS_TO_PASS": "0/44",
+    "resolved_status": "\u274c unresolved"
+  },
+  "sphinx-doc__sphinx-8265": {
+    "FAIL_TO_PASS": "1/1",
+    "PASS_TO_PASS": "21/22",
+    "resolved_status": "\u274c unresolved"
+  },
+  "sphinx-doc__sphinx-8269": {
+    "FAIL_TO_PASS": "0/1",
+    "PASS_TO_PASS": "0/5",
+    "resolved_status": "\u274c unresolved"
+  },
+  "sphinx-doc__sphinx-8459": {
+    "FAIL_TO_PASS": "0/1",
+    "PASS_TO_PASS": "0/17",
+    "resolved_status": "\u274c unresolved"
+  },
+  "sphinx-doc__sphinx-8475": {
+    "FAIL_TO_PASS": "0/1",
+    "PASS_TO_PASS": "0/17",
+    "resolved_status": "\u274c unresolved"
+  },
+  "sphinx-doc__sphinx-8548": {
+    "FAIL_TO_PASS": "0/1",
+    "PASS_TO_PASS": "0/5",
+    "resolved_status": "\u274c unresolved"
+  },
+  "sphinx-doc__sphinx-8551": {
+    "FAIL_TO_PASS": "0/1",
+    "PASS_TO_PASS": "2/32",
+    "resolved_status": "\u274c unresolved"
+  },
+  "sphinx-doc__sphinx-8593": {
+    "FAIL_TO_PASS": "0/2",
+    "PASS_TO_PASS": "0/1",
+    "resolved_status": "\u274c unresolved"
+  },
+  "sphinx-doc__sphinx-8595": {
+    "FAIL_TO_PASS": "0/1",
+    "PASS_TO_PASS": "0/0",
+    "resolved_status": "\u274c unresolved"
+  },
+  "sphinx-doc__sphinx-8621": {
+    "FAIL_TO_PASS": "0/2",
+    "PASS_TO_PASS": "0/31",
+    "resolved_status": "\u274c unresolved"
+  },
+  "sphinx-doc__sphinx-8638": {
+    "FAIL_TO_PASS": "0/1",
+    "PASS_TO_PASS": "2/34",
+    "resolved_status": "\u274c unresolved"
+  },
+  "sphinx-doc__sphinx-8721": {
+    "FAIL_TO_PASS": "0/1",
+    "PASS_TO_PASS": "0/3",
+    "resolved_status": "\u274c unresolved"
+  },
+  "sphinx-doc__sphinx-9229": {
+    "FAIL_TO_PASS": "0/1",
+    "PASS_TO_PASS": "13/13",
+    "resolved_status": "\u274c unresolved"
+  },
+  "sphinx-doc__sphinx-9461": {
+    "FAIL_TO_PASS": "1/3",
+    "PASS_TO_PASS": "59/59",
+    "resolved_status": "\u274c unresolved"
+  },
+  "sphinx-doc__sphinx-9602": {
+    "FAIL_TO_PASS": "0/1",
+    "PASS_TO_PASS": "45/45",
+    "resolved_status": "\u274c unresolved"
+  },
+  "sphinx-doc__sphinx-9698": {
+    "FAIL_TO_PASS": "1/1",
+    "PASS_TO_PASS": "45/45",
+    "resolved_status": "\u2705 resolved"
+  },
+  "sphinx-doc__sphinx-9711": {
+    "FAIL_TO_PASS": "0/1",
+    "PASS_TO_PASS": "0/0",
+    "resolved_status": "\u274c unresolved"
+  },
+  "sympy__sympy-12489": {
+    "FAIL_TO_PASS": "0/1",
+    "PASS_TO_PASS": "6/8",
+    "resolved_status": "\u274c unresolved"
+  },
+  "sympy__sympy-13031": {
+    "FAIL_TO_PASS": "0/1",
+    "PASS_TO_PASS": "9/9",
+    "resolved_status": "\u274c unresolved"
+  },
+  "sympy__sympy-13091": {
+    "FAIL_TO_PASS": "2/2",
+    "PASS_TO_PASS": "89/89",
+    "resolved_status": "\u2705 resolved"
+  },
+  "sympy__sympy-13798": {
+    "FAIL_TO_PASS": "0/1",
+    "PASS_TO_PASS": "102/102",
+    "resolved_status": "\u274c unresolved"
+  },
+  "sympy__sympy-13852": {
+    "FAIL_TO_PASS": "0/1",
+    "PASS_TO_PASS": "4/4",
+    "resolved_status": "\u274c unresolved"
+  },
+  "sympy__sympy-13877": {
+    "FAIL_TO_PASS": "0/1",
+    "PASS_TO_PASS": "110/110",
+    "resolved_status": "\u274c unresolved"
+  },
+  "sympy__sympy-14248": {
+    "FAIL_TO_PASS": "0/2",
+    "PASS_TO_PASS": "433/433",
+    "resolved_status": "\u274c unresolved"
+  },
+  "sympy__sympy-15875": {
+    "FAIL_TO_PASS": "1/1",
+    "PASS_TO_PASS": "80/80",
+    "resolved_status": "\u2705 resolved"
+  },
+  "sympy__sympy-16597": {
+    "FAIL_TO_PASS": "0/3",
+    "PASS_TO_PASS": "74/74",
+    "resolved_status": "\u274c unresolved"
+  },
+  "sympy__sympy-17318": {
+    "FAIL_TO_PASS": "0/1",
+    "PASS_TO_PASS": "10/10",
+    "resolved_status": "\u274c unresolved"
+  },
+  "sympy__sympy-17630": {
+    "FAIL_TO_PASS": "1/2",
+    "PASS_TO_PASS": "19/19",
+    "resolved_status": "\u274c unresolved"
+  },
+  "sympy__sympy-18199": {
+    "FAIL_TO_PASS": "0/1",
+    "PASS_TO_PASS": "113/113",
+    "resolved_status": "\u274c unresolved"
+  },
+  "sympy__sympy-18211": {
+    "FAIL_TO_PASS": "0/1",
+    "PASS_TO_PASS": "54/54",
+    "resolved_status": "\u274c unresolved"
+  },
+  "sympy__sympy-18698": {
+    "FAIL_TO_PASS": "0/1",
+    "PASS_TO_PASS": "147/147",
+    "resolved_status": "\u274c unresolved"
+  },
+  "sympy__sympy-18763": {
+    "FAIL_TO_PASS": "0/1",
+    "PASS_TO_PASS": "141/141",
+    "resolved_status": "\u274c unresolved"
+  },
+  "sympy__sympy-19040": {
+    "FAIL_TO_PASS": "1/1",
+    "PASS_TO_PASS": "148/148",
+    "resolved_status": "\u2705 resolved"
+  },
+  "sympy__sympy-19346": {
+    "FAIL_TO_PASS": "1/1",
+    "PASS_TO_PASS": "40/40",
+    "resolved_status": "\u2705 resolved"
+  },
+  "sympy__sympy-19495": {
+    "FAIL_TO_PASS": "0/1",
+    "PASS_TO_PASS": "8/8",
+    "resolved_status": "\u274c unresolved"
+  },
+  "sympy__sympy-19637": {
+    "FAIL_TO_PASS": "1/1",
+    "PASS_TO_PASS": "40/40",
+    "resolved_status": "\u2705 resolved"
+  },
+  "sympy__sympy-19954": {
+    "FAIL_TO_PASS": "1/1",
+    "PASS_TO_PASS": "56/56",
+    "resolved_status": "\u2705 resolved"
+  },
+  "sympy__sympy-20428": {
+    "FAIL_TO_PASS": "0/1",
+    "PASS_TO_PASS": "154/154",
+    "resolved_status": "\u274c unresolved"
+  },
+  "sympy__sympy-20438": {
+    "FAIL_TO_PASS": "0/2",
+    "PASS_TO_PASS": "93/93",
+    "resolved_status": "\u274c unresolved"
+  },
+  "sympy__sympy-20916": {
+    "FAIL_TO_PASS": "1/1",
+    "PASS_TO_PASS": "1/1",
+    "resolved_status": "\u2705 resolved"
+  },
+  "sympy__sympy-21379": {
+    "FAIL_TO_PASS": "0/1",
+    "PASS_TO_PASS": "91/91",
+    "resolved_status": "\u274c unresolved"
+  },
+  "sympy__sympy-21596": {
+    "FAIL_TO_PASS": "0/1",
+    "PASS_TO_PASS": "46/46",
+    "resolved_status": "\u274c unresolved"
+  },
+  "sympy__sympy-21612": {
+    "FAIL_TO_PASS": "0/1",
+    "PASS_TO_PASS": "98/98",
+    "resolved_status": "\u274c unresolved"
+  },
+  "sympy__sympy-21930": {
+    "FAIL_TO_PASS": "0/6",
+    "PASS_TO_PASS": "45/45",
+    "resolved_status": "\u274c unresolved"
+  },
+  "sympy__sympy-22080": {
+    "FAIL_TO_PASS": "1/3",
+    "PASS_TO_PASS": "90/91",
+    "resolved_status": "\u274c unresolved"
+  },
+  "sympy__sympy-22714": {
+    "FAIL_TO_PASS": "1/1",
+    "PASS_TO_PASS": "11/11",
+    "resolved_status": "\u2705 resolved"
+  },
+  "sympy__sympy-22914": {
+    "FAIL_TO_PASS": "1/1",
+    "PASS_TO_PASS": "17/17",
+    "resolved_status": "\u2705 resolved"
+  },
+  "sympy__sympy-23262": {
+    "FAIL_TO_PASS": "1/1",
+    "PASS_TO_PASS": "61/61",
+    "resolved_status": "\u2705 resolved"
+  },
+  "sympy__sympy-23413": {
+    "FAIL_TO_PASS": "0/1",
+    "PASS_TO_PASS": "2/2",
+    "resolved_status": "\u274c unresolved"
+  },
+  "sympy__sympy-23534": {
+    "FAIL_TO_PASS": "1/1",
+    "PASS_TO_PASS": "11/11",
+    "resolved_status": "\u2705 resolved"
+  },
+  "sympy__sympy-23824": {
+    "FAIL_TO_PASS": "1/1",
+    "PASS_TO_PASS": "2/2",
+    "resolved_status": "\u2705 resolved"
+  },
+  "sympy__sympy-23950": {
+    "FAIL_TO_PASS": "0/1",
+    "PASS_TO_PASS": "4/4",
+    "resolved_status": "\u274c unresolved"
+  },
+  "sympy__sympy-24066": {
+    "FAIL_TO_PASS": "1/1",
+    "PASS_TO_PASS": "30/30",
+    "resolved_status": "\u2705 resolved"
+  },
+  "sympy__sympy-24213": {
+    "FAIL_TO_PASS": "1/1",
+    "PASS_TO_PASS": "31/31",
+    "resolved_status": "\u2705 resolved"
+  },
+  "sympy__sympy-24443": {
+    "FAIL_TO_PASS": "1/1",
+    "PASS_TO_PASS": "1/1",
+    "resolved_status": "\u2705 resolved"
+  },
+  "sympy__sympy-24661": {
+    "FAIL_TO_PASS": "1/1",
+    "PASS_TO_PASS": "27/27",
+    "resolved_status": "\u2705 resolved"
+  }
+}

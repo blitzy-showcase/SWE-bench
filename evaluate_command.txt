@@ -16,3 +16,105 @@ python3 -m swebench.harness.run_evaluation \
   --run_id TestRun_3_for_3
 
 # results should output in Blitzy 3.0.TestRun_3_for_3.json (or Blitzy 3.0.<your_run_id>.json)
+
+
+python3 -m swebench.harness.run_evaluation \
+  --dataset_name princeton-nlp/SWE-bench_Verified \
+  --predictions_path ./jsonl_filtered/swe_bench_predictions_001-019.jsonl \
+  --modal true \
+  --run_id swe_bench_predictions_001-019
+
+
+python3 -m swebench.harness.run_evaluation \
+  --dataset_name princeton-nlp/SWE-bench_Verified \
+  --predictions_path ./jsonl_filtered/swe_bench_predictions_020-038.jsonl \
+  --modal true \
+  --run_id swe_bench_predictions_020-038
+
+
+python3 -m swebench.harness.run_evaluation \
+  --dataset_name princeton-nlp/SWE-bench_Verified \
+  --predictions_path ./jsonl_filtered/swe_bench_predictions_077-095.jsonl \
+  --modal true \
+  --run_id swe_bench_predictions_077-095
+
+
+
+python3 -m swebench.harness.run_evaluation \
+  --dataset_name princeton-nlp/SWE-bench_Verified \
+  --predictions_path ./jsonl_filtered/swe_bench_predictions_096-114.jsonl \
+  --modal true \
+  --run_id swe_bench_predictions_096-114
+
+
+
+python3 -m swebench.harness.run_evaluation \
+  --dataset_name princeton-nlp/SWE-bench_Verified \
+  --predictions_path ./jsonl_filtered/swe_bench_predictions_115-133.jsonl \
+  --modal true \
+  --run_id swe_bench_predictions_115-133
+
+
+python3 -m swebench.harness.run_evaluation \
+  --dataset_name princeton-nlp/SWE-bench_Verified \
+  --predictions_path ./jsonl_filtered/swe_bench_predictions_134-152.jsonl \
+  --modal true \
+  --run_id swe_bench_predictions_134-152
+
+python3 -m swebench.harness.run_evaluation \
+  --dataset_name princeton-nlp/SWE-bench_Verified \
+  --predictions_path ./jsonl_filtered/older/swe_bench_predictions_153-162.jsonl \
+  --modal true \
+  --run_id swe_bench_predictions_153-162
+
+
+python3 -m swebench.harness.run_evaluation \
+  --dataset_name princeton-nlp/SWE-bench_Verified \
+  --predictions_path ./jsonl_filtered/swe_bench_predictions_001-019.jsonl \
+  --modal true \
+  --run_id swe_bench_predictions_001-019_new
+
+
+python3 -m swebench.harness.run_evaluation \
+  --dataset_name princeton-nlp/SWE-bench_Verified \
+  --predictions_path ./jsonl_filtered/swe_bench_predictions_020-037.jsonl \
+  --modal true \
+  --run_id swe_bench_predictions_020-037_new
+
+python3 -m swebench.harness.run_evaluation \
+  --dataset_name princeton-nlp/SWE-bench_Verified \
+  --predictions_path ./jsonl_filtered/swe_bench_predictions_001-014.jsonl \
+  --modal true \
+  --run_id swe_bench_predictions_001-014
+
+python3 -m swebench.harness.run_evaluation \
+  --dataset_name princeton-nlp/SWE-bench_Verified \
+  --predictions_path ./jsonl_filtered/swe_bench_predictions_026-050.jsonl \
+  --modal true \
+  --run_id swe_bench_predictions_026-050
+
+python3 -m swebench.harness.run_evaluation \
+  --dataset_name princeton-nlp/SWE-bench_Verified \
+  --predictions_path ./jsonl_filtered/swe_bench_predictions_001-020.jsonl \
+  --modal true \
+  --run_id swe_bench_predictions_001-020
+
+
+python3 -m swebench.harness.run_evaluation \
+  --dataset_name princeton-nlp/SWE-bench_Verified \
+  --predictions_path ./jsonl_filtered/swe_bench_predictions_001-025.jsonl \
+  --modal true \
+  --run_id swe_bench_predictions_001-025
+
+
+python3 -m swebench.harness.run_evaluation \
+  --dataset_name princeton-nlp/SWE-bench_Verified \
+  --predictions_path ./jsonl_filtered/swe_bench_predictions_001-001.jsonl \
+  --modal true \
+  --run_id swe_bench_predictions_001-001
+
+python3 -m swebench.harness.run_evaluation \
+  --dataset_name princeton-nlp/SWE-bench_Verified \
+  --predictions_path ./jsonl_filtered/swe_bench_predictions_001-008.jsonl \
+  --modal true \
+  --run_id swe_bench_predictions_001-008
