@@ -21,7 +21,7 @@
 
 ## Step 4: Split JSONL into Batches
 
-**Run:** `split_jsonl.py` to split the jsonl file into smaller batches for module modal evals
+**Run:** `split_jsonl.py` to split the jsonl file into smaller batches for modular modal evals
 
 - **Output:** `jsonl_filtered` directory in the "modal_run_environment" codebase, which is my version of SWE-bench
 
