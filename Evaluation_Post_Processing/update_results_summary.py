@@ -150,28 +150,7 @@ def analyze_swe_bench_results(logs_dir):
     return results
 
 
-def load_existing_results(output_file):
-    """
-    Load existing results from the JSON file if it exists.
-    
-    Args:
-        output_file (str): Path to the existing results JSON file
-        
-    Returns:
-        dict: Existing results or empty dict if file doesn't exist
-    """
-    try:
-        if os.path.exists(output_file):
-            with open(output_file, 'r') as f:
-                existing_results = json.load(f)
-            print(f"Loaded {len(existing_results)} existing results from {output_file}")
-            return existing_results
-        else:
-            print(f"No existing results file found at {output_file}")
-            return {}
-    except Exception as e:
-        print(f"Warning: Could not load existing results: {e}")
-        return {}
+# Removed load_existing_results function - no longer needed since we're doing complete replacement
 
 
 def main():
@@ -183,65 +162,36 @@ def main():
     if len(sys.argv) > 1:
         logs_dir = sys.argv[1]
     
-    # Load existing results first
-    output_file = "/Users/jackblundin/Modal_Run_Environment/swe_bench_results_summary.json"
-    existing_results = load_existing_results(output_file)
+    # Output file path
+    output_file = "/Users/jackblundin/Modal_Run_Environment/SWE-bench/Evaluation_Post_Processing/swe_bench_results_summary.json"
     
-    # Run the analysis on current logs
-    new_results = analyze_swe_bench_results(logs_dir)
+    # Run the analysis on current logs (this will be the complete replacement data)
+    current_results = analyze_swe_bench_results(logs_dir)
     
-    # Merge new results with existing ones (new results take precedence)
-    merged_results = existing_results.copy()
-    new_instances = 0
-    updated_instances = 0
+    print(f"\nSummary:")
+    print(f"  Total instances found in logs: {len(current_results)}")
+    print(f"  Will completely replace existing summary file with current results")
     
-    for instance_id, data in new_results.items():
-        if instance_id in merged_results:
-            updated_instances += 1
-            print(f"Updated existing instance: {instance_id}")
-        else:
-            new_instances += 1
-            print(f"Added new instance: {instance_id}")
-        merged_results[instance_id] = data
-    
-    print(f"\nMerge Summary:")
-    print(f"  Existing instances: {len(existing_results)}")
-    print(f"  New instances found: {new_instances}")
-    print(f"  Updated instances: {updated_instances}")
-    print(f"  Total instances after merge: {len(merged_results)}")
-    
-    # Save merged results to JSON file
+    # Save current results to JSON file (complete replacement)
     try:
         with open(output_file, 'w') as f:
-            json.dump(merged_results, f, indent=2, sort_keys=True)
+            json.dump(current_results, f, indent=2, sort_keys=True)
         
         print(f"\nResults saved to: {output_file}")
-        print(f"Total instances in final summary: {len(merged_results)}")
+        print(f"Total instances in summary file: {len(current_results)}")
+        print(f"Summary file completely replaced with latest evaluation results.")
         
-        # Show a few example results from new instances if any
-        if new_instances > 0:
-            print(f"\nExample new instances added:")
+        # Show a few example results if any were found
+        if len(current_results) > 0:
+            print(f"\nExample results from current evaluation:")
             count = 0
-            for instance_id, data in new_results.items():
-                if instance_id not in existing_results:
-                    print(f"  {instance_id}: {data['resolved_status']}")
-                    print(f"    PASS_TO_PASS: {data['PASS_TO_PASS']}")
-                    print(f"    FAIL_TO_PASS: {data['FAIL_TO_PASS']}")
-                    count += 1
-                    if count >= 3:
-                        break
-        elif updated_instances > 0:
-            print(f"\nExample updated instances:")
-            count = 0
-            for instance_id, data in new_results.items():
-                if instance_id in existing_results:
-                    print(f"  {instance_id}: {data['resolved_status']}")
-                    print(f"    PASS_TO_PASS: {data['PASS_TO_PASS']}")
-                    print(f"    FAIL_TO_PASS: {data['FAIL_TO_PASS']}")
-                    count += 1
-                    if count >= 3:
-                        break
-        
+            for instance_id, data in current_results.items():
+                print(f"  {instance_id}: {data['resolved_status']}")
+                print(f"    PASS_TO_PASS: {data['PASS_TO_PASS']}")
+                print(f"    FAIL_TO_PASS: {data['FAIL_TO_PASS']}")
+                count += 1
+                if count >= 3:
+                    break
     except Exception as e:
         print(f"Error saving results: {e}")
         return 1

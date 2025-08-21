@@ -11,45 +11,42 @@ import sys
 from pathlib import Path
 
 
-def load_pr_urls(pr_urls_file, pr_urls_updated_file):
+def load_pr_urls(pr_urls_file):
     """
-    Load PR URLs from both JSON files and create a mapping from base_branch to PR info.
+    Load PR URLs from JSON file and create a mapping from base_branch to PR info.
     
     Args:
         pr_urls_file (str): Path to pr_urls.json
-        pr_urls_updated_file (str): Path to pr_urls_updated.json
         
     Returns:
         dict: Mapping from base_branch (instance_id) to PR info
     """
     pr_mapping = {}
     
-    # Load both PR URL files
-    for file_path in [pr_urls_file, pr_urls_updated_file]:
-        try:
-            with open(file_path, 'r') as f:
-                data = json.load(f)
+    try:
+        with open(pr_urls_file, 'r') as f:
+            data = json.load(f)
+            
+        for pr in data.get('prs', []):
+            base_branch = pr.get('base_branch')
+            if base_branch:
+                pr_mapping[base_branch] = {
+                    'url': pr.get('url', ''),
+                    'head_branch': pr.get('head_branch', ''),
+                    'repo': pr.get('repo', ''),
+                    'number': pr.get('number', ''),
+                    'title': pr.get('title', '')
+                }
                 
-            for pr in data.get('prs', []):
-                base_branch = pr.get('base_branch')
-                if base_branch:
-                    pr_mapping[base_branch] = {
-                        'url': pr.get('url', ''),
-                        'head_branch': pr.get('head_branch', ''),
-                        'repo': pr.get('repo', ''),
-                        'number': pr.get('number', ''),
-                        'title': pr.get('title', '')
-                    }
-                    
-        except Exception as e:
-            print(f"Warning: Could not load {file_path}: {e}")
+    except Exception as e:
+        print(f"Error: Could not load {pr_urls_file}: {e}")
     
     return pr_mapping
 
 
 def generate_project_guide_url(pr_info):
     """
-    Generate the project guide URL from PR information.
+    Generate the project guide URL from PR information with robust fallback options.
     
     Args:
         pr_info (dict): PR information containing repo, head_branch, etc.
@@ -63,10 +60,79 @@ def generate_project_guide_url(pr_info):
     repo = pr_info['repo']
     head_branch = pr_info['head_branch']
     
-    # Format: https://github.com/{repo}/blob/{head_branch}/blitzy/documentation/Project%20Guide.md
+    # Primary format: https://github.com/{repo}/blob/{head_branch}/blitzy/documentation/Project%20Guide.md
+    # URL encode the space in "Project Guide.md" properly
     project_guide_url = f"https://github.com/{repo}/blob/{head_branch}/blitzy/documentation/Project%20Guide.md"
     
     return project_guide_url
+
+
+def validate_project_guide_url(url):
+    """
+    Validate if a project guide URL is accessible.
+    
+    Args:
+        url (str): URL to validate
+        
+    Returns:
+        bool: True if URL is accessible, False otherwise
+    """
+    if not url:
+        return False
+    
+    try:
+        import urllib.request
+        import urllib.error
+        
+        # Convert GitHub blob URL to raw URL for validation
+        raw_url = url.replace('/blob/', '/raw/')
+        
+        req = urllib.request.Request(raw_url)
+        req.add_header('User-Agent', 'Mozilla/5.0 (compatible; URL validator)')
+        
+        with urllib.request.urlopen(req, timeout=10) as response:
+            return response.getcode() == 200
+            
+    except (urllib.error.URLError, urllib.error.HTTPError, Exception):
+        return False
+
+
+def generate_project_guide_url_with_validation(pr_info):
+    """
+    Generate and validate project guide URL with fallback options.
+    
+    Args:
+        pr_info (dict): PR information containing repo, head_branch, etc.
+        
+    Returns:
+        str: Validated URL to the project guide markdown file, or empty string if none found
+    """
+    if not pr_info or not pr_info.get('repo') or not pr_info.get('head_branch'):
+        return ""
+    
+    repo = pr_info['repo']
+    head_branch = pr_info['head_branch']
+    
+    # Try different possible file paths and names
+    possible_paths = [
+        "blitzy/documentation/Project%20Guide.md",  # URL encoded space
+        "blitzy/documentation/Project Guide.md",    # Regular space
+        "blitzy/documentation/ProjectGuide.md",     # No space
+        "blitzy/documentation/project-guide.md",    # Lowercase with dash
+        "blitzy/documentation/README.md",           # Alternative name
+        "documentation/Project%20Guide.md",         # Without blitzy folder
+        "documentation/Project Guide.md",           # Without blitzy folder, regular space
+    ]
+    
+    base_url = f"https://github.com/{repo}/blob/{head_branch}/"
+    
+    for path in possible_paths:
+        url = base_url + path
+        if validate_project_guide_url(url):
+            return url
+    
+    # If no valid URL found, return the primary format anyway
+    return f"https://github.com/{repo}/blob/{head_branch}/blitzy/documentation/Project%20Guide.md"
 
 
 def load_swe_bench_results(results_file):
@@ -129,9 +195,16 @@ def generate_csv(results_data, pr_mapping, output_file):
             pr_title = ""
             print(f"Warning: No PR information found for {instance_id}")
         else:
-            project_guide_url = generate_project_guide_url(pr_info)
+            # Use the validation approach for more reliable URLs
+            project_guide_url = generate_project_guide_url_with_validation(pr_info)
             pr_url = pr_info.get('url', '')
             pr_title = pr_info.get('title', '')
+            
+            # Log if URL validation was used
+            if not project_guide_url:
+                print(f"Warning: Could not find valid project guide URL for {instance_id}")
+            elif not project_guide_url.endswith('Project%20Guide.md') and not project_guide_url.endswith('Project Guide.md'):
+                print(f"Info: Using alternative project guide path for {instance_id}: {project_guide_url}")
         
         # Create row
         row = [
@@ -181,10 +254,9 @@ def main():
     """Main function to generate the CSV."""
     
     # File paths
-    results_file = "/Users/jackblundin/Modal_Run_Environment/swe_bench_results_summary.json"
-    pr_urls_file = "/Users/jackblundin/Modal_Run_Environment/SWE-bench/patch_file_creation_process/PR_fetch_results/pr_urls.json"
-    pr_urls_updated_file = "/Users/jackblundin/Modal_Run_Environment/SWE-bench/patch_file_creation_process/PR_fetch_results/pr_urls_updated.json"
-    output_file = "/Users/jackblundin/Modal_Run_Environment/swe_bench_results.csv"
+    results_file = "/Users/jackblundin/Modal_Run_Environment/SWE-bench/Evaluation_Post_Processing/swe_bench_results_summary.json"
+    pr_urls_file = "/Users/jackblundin/patch_file_creation_process_copy/PR_fetch_results/pr_urls.json"
+    output_file = "/Users/jackblundin/Modal_Run_Environment/SWE-bench/Evaluation_Post_Processing/swe_bench_results.csv"
     
     print("Loading SWE-bench results...")
     results_data = load_swe_bench_results(results_file)
@@ -194,7 +266,7 @@ def main():
         return 1
     
     print("Loading PR URL mappings...")
-    pr_mapping = load_pr_urls(pr_urls_file, pr_urls_updated_file)
+    pr_mapping = load_pr_urls(pr_urls_file)
     
     print(f"Loaded {len(pr_mapping)} PR mappings")
     print(f"Loaded {len(results_data)} SWE-bench results")
